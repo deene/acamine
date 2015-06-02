@@ -1,0 +1,513 @@
+{ "apiKey" : "3a3sxqg25fmwnzrsy2qmgjds",
+  "facets" : [ { "name" : "subject",
+        "values" : [ { "count" : "538",
+              "value" : "Life Sciences"
+            },
+            { "count" : "401",
+              "value" : "Biotechnology"
+            },
+            { "count" : "314",
+              "value" : "Chemistry"
+            },
+            { "count" : "278",
+              "value" : "Microbiology"
+            },
+            { "count" : "276",
+              "value" : "Biochemistry, general"
+            },
+            { "count" : "275",
+              "value" : "Plant Sciences"
+            },
+            { "count" : "132",
+              "value" : "Plant Physiology"
+            },
+            { "count" : "111",
+              "value" : "Microbial Genetics and Genomics"
+            },
+            { "count" : "107",
+              "value" : "Philosophy"
+            },
+            { "count" : "102",
+              "value" : "Agriculture"
+            },
+            { "count" : "100",
+              "value" : "Cell Biology"
+            },
+            { "count" : "96",
+              "value" : "Plant Genetics & Genomics"
+            },
+            { "count" : "95",
+              "value" : "Ethics"
+            },
+            { "count" : "85",
+              "value" : "Biomedicine"
+            },
+            { "count" : "84",
+              "value" : "Agricultural Economics"
+            },
+            { "count" : "80",
+              "value" : "Animal Anatomy / Morphology / Histology"
+            },
+            { "count" : "73",
+              "value" : "Life Sciences, general"
+            },
+            { "count" : "68",
+              "value" : "Ecology"
+            },
+            { "count" : "67",
+              "value" : "Industrial Chemistry/Chemical Engineering"
+            },
+            { "count" : "66",
+              "value" : "Chemistry/Food Science, general"
+            }
+          ]
+      },
+      { "name" : "keyword",
+        "values" : [ { "count" : "98",
+              "value" : "Biotechnology"
+            },
+            { "count" : "67",
+              "value" : "biotechnology"
+            },
+            { "count" : "23",
+              "value" : "genetic engineering"
+            },
+            { "count" : "16",
+              "value" : "Genetic engineering"
+            },
+            { "count" : "10",
+              "value" : "agricultural biotechnology"
+            },
+            { "count" : "10",
+              "value" : "Plant biotechnology"
+            },
+            { "count" : "10",
+              "value" : "transformation"
+            },
+            { "count" : "8",
+              "value" : "agriculture"
+            },
+            { "count" : "7",
+              "value" : "biodiversity"
+            },
+            { "count" : "7",
+              "value" : "Biofuels"
+            },
+            { "count" : "7",
+              "value" : "Metabolic engineering"
+            },
+            { "count" : "6",
+              "value" : "Agriculture"
+            },
+            { "count" : "6",
+              "value" : "developing countries"
+            },
+            { "count" : "6",
+              "value" : "Genomics"
+            },
+            { "count" : "6",
+              "value" : "Innovation"
+            },
+            { "count" : "6",
+              "value" : "regulation"
+            },
+            { "count" : "5",
+              "value" : "Agricultural biotechnology"
+            },
+            { "count" : "5",
+              "value" : "Antibiotics"
+            },
+            { "count" : "5",
+              "value" : "Biocatalysis"
+            },
+            { "count" : "5",
+              "value" : "Biofilm"
+            }
+          ]
+      },
+      { "name" : "pub",
+        "values" : [ { "count" : "81",
+              "value" : "Applied Microbiology and Biotechnology"
+            },
+            { "count" : "50",
+              "value" : "Biotechnology Letters"
+            },
+            { "count" : "39",
+              "value" : "Applied Biochemistry and Biotechnology"
+            },
+            { "count" : "34",
+              "value" : "In Vitro Cellular & Developmental Biology - Plant"
+            },
+            { "count" : "34",
+              "value" : "Scientometrics"
+            },
+            { "count" : "25",
+              "value" : "Journal of Agricultural and Environmental Ethics"
+            },
+            { "count" : "21",
+              "value" : "Agriculture and Human Values"
+            },
+            { "count" : "19",
+              "value" : "Plant Molecular Biology"
+            },
+            { "count" : "18",
+              "value" : "Applied Biochemistry and Microbiology"
+            },
+            { "count" : "17",
+              "value" : "Plant Cell, Tissue and Organ Culture"
+            },
+            { "count" : "17",
+              "value" : "World Journal of Microbiology & Biotechnology"
+            },
+            { "count" : "17",
+              "value" : "World Journal of Microbiology and Biotechnology"
+            },
+            { "count" : "16",
+              "value" : "Journal of Industrial Microbiology & Biotechnology"
+            },
+            { "count" : "16",
+              "value" : "Plant Growth Regulation"
+            },
+            { "count" : "16",
+              "value" : "Small Business Economics"
+            },
+            { "count" : "15",
+              "value" : "The Journal of Technology Transfer"
+            },
+            { "count" : "14",
+              "value" : "Euphytica"
+            },
+            { "count" : "14",
+              "value" : "Molecular Biotechnology"
+            },
+            { "count" : "13",
+              "value" : "Journal of Applied Phycology"
+            },
+            { "count" : "13",
+              "value" : "Plant Molecular Biology Reporter"
+            }
+          ]
+      },
+      { "name" : "year",
+        "values" : [ { "count" : "13",
+              "value" : "2014"
+            },
+            { "count" : "100",
+              "value" : "2013"
+            },
+            { "count" : "99",
+              "value" : "2012"
+            },
+            { "count" : "84",
+              "value" : "2011"
+            },
+            { "count" : "101",
+              "value" : "2010"
+            },
+            { "count" : "75",
+              "value" : "2009"
+            },
+            { "count" : "82",
+              "value" : "2008"
+            },
+            { "count" : "91",
+              "value" : "2007"
+            },
+            { "count" : "72",
+              "value" : "2006"
+            },
+            { "count" : "92",
+              "value" : "2005"
+            },
+            { "count" : "55",
+              "value" : "2004"
+            },
+            { "count" : "41",
+              "value" : "2003"
+            },
+            { "count" : "55",
+              "value" : "2002"
+            },
+            { "count" : "45",
+              "value" : "2001"
+            },
+            { "count" : "52",
+              "value" : "2000"
+            },
+            { "count" : "43",
+              "value" : "1999"
+            },
+            { "count" : "35",
+              "value" : "1998"
+            },
+            { "count" : "28",
+              "value" : "1997"
+            },
+            { "count" : "22",
+              "value" : "1996"
+            },
+            { "count" : "27",
+              "value" : "1995"
+            }
+          ]
+      },
+      { "name" : "country",
+        "values" : [ { "count" : "375",
+              "value" : "United States"
+            },
+            { "count" : "110",
+              "value" : "Germany"
+            },
+            { "count" : "107",
+              "value" : "United Kingdom"
+            },
+            { "count" : "60",
+              "value" : "India"
+            },
+            { "count" : "57",
+              "value" : "Canada"
+            },
+            { "count" : "45",
+              "value" : "Spain"
+            },
+            { "count" : "42",
+              "value" : "Russia"
+            },
+            { "count" : "40",
+              "value" : "France"
+            },
+            { "count" : "38",
+              "value" : "China"
+            },
+            { "count" : "37",
+              "value" : "Switzerland"
+            },
+            { "count" : "36",
+              "value" : "Italy"
+            },
+            { "count" : "34",
+              "value" : "Japan"
+            },
+            { "count" : "30",
+              "value" : "Australia"
+            },
+            { "count" : "24",
+              "value" : "Israel"
+            },
+            { "count" : "22",
+              "value" : "Netherlands"
+            },
+            { "count" : "19",
+              "value" : "New Zealand"
+            },
+            { "count" : "19",
+              "value" : "South Korea"
+            },
+            { "count" : "16",
+              "value" : "Belgium"
+            },
+            { "count" : "15",
+              "value" : ""
+            },
+            { "count" : "14",
+              "value" : "Brazil"
+            }
+          ]
+      },
+      { "name" : "type",
+        "values" : [ { "count" : "1057",
+              "value" : "Journal"
+            },
+            { "count" : "409",
+              "value" : "Book"
+            }
+          ]
+      }
+    ],
+  "query" : "title:biotechnology",
+  "records" : [ { "abstract" : "",
+        "copyright" : "©1989 Longman Group Limited",
+        "creators" : [  ],
+        "doi" : "10.1007/BF02297352",
+        "genre" : "Report",
+        "identifier" : "doi:10.1007/BF02297352",
+        "issn" : "1573-7438",
+        "journalid" : "11250",
+        "number" : "1",
+        "openaccess" : "false",
+        "publicationDate" : "1989-03-01",
+        "publicationName" : "Tropical Animal Health and Production",
+        "publisher" : "Springer",
+        "startingPage" : "88",
+        "title" : "Biotechnology 1989 International Conference on the Application of Biotechnology to Livestock in Developing Countries Centre for Tropical Veterinary Medicine, University of Edinburgh 40th to 8th September, 1989",
+        "url" : "http://dx.doi.org/10.1007/BF02297352",
+        "volume" : "21"
+      },
+      { "abstract" : "",
+        "copyright" : "©1986 Martinus Nijhoff Publishers",
+        "creators" : [  ],
+        "doi" : "10.1007/BF00021335",
+        "genre" : "News",
+        "identifier" : "doi:10.1007/BF00021335",
+        "issn" : "1573-5028",
+        "journalid" : "11103",
+        "number" : "3",
+        "openaccess" : "false",
+        "publicationDate" : "1986-05-01",
+        "publicationName" : "Plant Molecular Biology",
+        "publisher" : "Springer",
+        "startingPage" : "229",
+        "title" : "Biotechnology news and views",
+        "url" : "http://dx.doi.org/10.1007/BF00021335",
+        "volume" : "7"
+      },
+      { "abstract" : "",
+        "copyright" : "©2004 Kluwer Academic Publishers",
+        "creators" : [ { "creator" : "Synková, H." } ],
+        "doi" : "10.1023/B:PHOT.0000046197.54819.0a",
+        "genre" : "BookReview",
+        "identifier" : "doi:10.1023/B:PHOT.0000046197.54819.0a",
+        "issn" : "1573-9058",
+        "journalid" : "11099",
+        "number" : "3",
+        "openaccess" : "false",
+        "publicationDate" : "2004-09-01",
+        "publicationName" : "Photosynthetica",
+        "publisher" : "Springer",
+        "startingPage" : "338",
+        "title" : "Schalkhammer, T.G.M. (ed.): Analytical Biotechnology",
+        "url" : "http://dx.doi.org/10.1023/B:PHOT.0000046197.54819.0a",
+        "volume" : "42"
+      },
+      { "abstract" : "",
+        "copyright" : "©1992 Adis International Ltd",
+        "creators" : [  ],
+        "doi" : "10.2165/00128413-199208620-00024",
+        "genre" : "Abstract",
+        "identifier" : "doi:10.2165/00128413-199208620-00024",
+        "issn" : "2230-6056",
+        "journalid" : "40285",
+        "number" : "1",
+        "openaccess" : "false",
+        "publicationDate" : "1992-11-01",
+        "publicationName" : "Inpharma Weekly",
+        "publisher" : "Springer",
+        "startingPage" : "13",
+        "title" : "Biotechnology advances in RA",
+        "url" : "http://dx.doi.org/10.2165/00128413-199208620-00024",
+        "volume" : "862"
+      },
+      { "abstract" : "",
+        "copyright" : "©1991 Science and Technology Letters",
+        "creators" : [  ],
+        "doi" : "10.1007/BF01263202",
+        "genre" : "Report",
+        "identifier" : "doi:10.1007/BF01263202",
+        "issn" : "1573-2991",
+        "journalid" : "10669",
+        "number" : "1",
+        "openaccess" : "false",
+        "publicationDate" : "1991-03-01",
+        "publicationName" : "The Environmentalist",
+        "publisher" : "Springer",
+        "startingPage" : "63",
+        "title" : "Plant Tissue Culture and Biotechnology",
+        "url" : "http://dx.doi.org/10.1007/BF01263202",
+        "volume" : "11"
+      },
+      { "abstract" : "",
+        "copyright" : "©1987 Kluwer Academic Publishers",
+        "creators" : [  ],
+        "doi" : "10.1007/BF01032741",
+        "genre" : "Events",
+        "identifier" : "doi:10.1007/BF01032741",
+        "issn" : "1573-6776",
+        "journalid" : "10529",
+        "number" : "2",
+        "openaccess" : "false",
+        "publicationDate" : "1987-02-01",
+        "publicationName" : "Biotechnology Letters",
+        "publisher" : "Springer",
+        "startingPage" : "III",
+        "title" : "Courses for biotechnology",
+        "url" : "http://dx.doi.org/10.1007/BF01032741",
+        "volume" : "9"
+      },
+      { "abstract" : "",
+        "copyright" : "©1989 Kluwer Academic Publishers",
+        "creators" : [  ],
+        "doi" : "10.1007/BF01026639",
+        "genre" : "Events",
+        "identifier" : "doi:10.1007/BF01026639",
+        "issn" : "1573-6776",
+        "journalid" : "10529",
+        "number" : "7",
+        "openaccess" : "false",
+        "publicationDate" : "1989-07-01",
+        "publicationName" : "Biotechnology Letters",
+        "publisher" : "Springer",
+        "startingPage" : "III",
+        "title" : "Courses for biotechnology",
+        "url" : "http://dx.doi.org/10.1007/BF01026639",
+        "volume" : "11"
+      },
+      { "abstract" : "",
+        "copyright" : "©1983 Martinus Nijhoff/Dr W. Junk Publishers",
+        "creators" : [  ],
+        "doi" : "10.1007/BF01578596",
+        "genre" : "News",
+        "identifier" : "doi:10.1007/BF01578596",
+        "issn" : "1573-5028",
+        "journalid" : "11103",
+        "number" : "6",
+        "openaccess" : "false",
+        "publicationDate" : "1983-11-01",
+        "publicationName" : "Plant Molecular Biology",
+        "publisher" : "Springer",
+        "startingPage" : "351",
+        "title" : "Plant biotechnology news and views",
+        "url" : "http://dx.doi.org/10.1007/BF01578596",
+        "volume" : "2"
+      },
+      { "abstract" : "",
+        "copyright" : "©1989 Kluwer Academic Publishers",
+        "creators" : [ { "creator" : "Kasteren, J." } ],
+        "doi" : "10.1007/BF02170138",
+        "genre" : "Legacy",
+        "identifier" : "doi:10.1007/BF02170138",
+        "issn" : "1573-8280",
+        "journalid" : "10537",
+        "number" : "1-2",
+        "openaccess" : "false",
+        "publicationDate" : "1989-03-01",
+        "publicationName" : "Biotherapy",
+        "publisher" : "Springer",
+        "startingPage" : "85",
+        "title" : "Patents in biotechnology",
+        "url" : "http://dx.doi.org/10.1007/BF02170138",
+        "volume" : "1"
+      },
+      { "abstract" : "",
+        "copyright" : "©1990 Kluwer Academic Publishers",
+        "creators" : [  ],
+        "doi" : "10.1007/BF01024409",
+        "genre" : "Events",
+        "identifier" : "doi:10.1007/BF01024409",
+        "issn" : "1573-6776",
+        "journalid" : "10529",
+        "number" : "6",
+        "openaccess" : "false",
+        "publicationDate" : "1990-06-01",
+        "publicationName" : "Biotechnology Letters",
+        "publisher" : "Springer",
+        "startingPage" : "ii",
+        "title" : "Courses for biotechnology",
+        "url" : "http://dx.doi.org/10.1007/BF01024409",
+        "volume" : "12"
+      }
+    ],
+  "result" : [ { "pageLength" : "10",
+        "start" : "1",
+        "total" : "1466"
+      } ]
+}
