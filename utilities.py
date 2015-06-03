@@ -34,7 +34,7 @@ class WordCount:
 
         return self.msg
 
-json_data=open('./download/nnano-2012.json')
+json_data=open('./nnano-2010.json')
 data = json.load(json_data)
 word_count = WordCount()
 
