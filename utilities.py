@@ -3,6 +3,14 @@
 
 import json
 from pprint import pprint
+from bs4 import BeautifulSoup
+import requests
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import os.path
+import natureProductCodes
+
 
 class WordCount:
     """A simple word count class"""
@@ -34,15 +42,65 @@ class WordCount:
 
         return self.msg
 
-json_data=open('./nnano-2010.json')
-data = json.load(json_data)
-word_count = WordCount()
+def nature_get_author_address():
+    r = requests.get('http://dx.doi.org/10.1038/nnano.2013.286')
+    soup = BeautifulSoup(r.text)
+    print soup.find_all('ol', 'affiliations','af-section')
 
-split_string = ''
-for entry in data:
-    if entry[u'dc:description']:
-        split_string = entry[u'dc:description'].replace('<p>', '').replace('</p>', '').replace(',','').replace('.','') \
-                        .replace('\'','').replace('(','').replace(')','').replace('-', ' ').lower()
-        word_count.append(split_string)
+def clean_description(desciption_text):
+    """ This method cleans the desciption text, remove all unneccesary symbols, make word lower case """
+    cleaned_text = desciption_text.replace('<p>', '').replace('</p>', '').replace(',','').replace('.','') \
+                    .replace('\'','').replace('(','').replace(')','').replace('-', ' ').lower()
+    return cleaned_text
 
-pprint(word_count.word_table)
+if __name__ == "__main__":
+### count the words ###
+    json_data=open('./nnano-2010.json')
+    data = json.load(json_data)
+    word_count = WordCount()
+
+    split_string = ''
+    for entry in data:
+        if entry[u'dc:description']:
+            split_string = clean_description(entry[u'dc:description'])
+            word_count.append(split_string)
+
+    pprint(word_count.word_table)
+
+### get the address ###
+
+    nature_get_author_address()
+
+### Get the authors ###
+    record = {}
+    articleLinks = []
+    for year in range(2006,2015):
+        record[year] = {}
+        for journalName, code in natureProductCodes.natureProductCodes.items():
+            if code != "":
+                fileName = './' + code + '-' + str(year) + '.json'
+
+                if os.path.isfile(fileName):
+                    json_data=open(fileName)
+                    data = json.load(json_data)
+
+                    for entry in data:
+                        if not entry['dc:creator']:
+                            continue
+                        if entry["prism:genre"] != 'Research':
+                            continue
+
+                        for author in entry['dc:creator']:
+                            author = author.replace('  ', ' ')
+                            if not author in record[year].keys():
+                                record[year][author] = 1
+                            else:
+                                record[year][author] = record[year][author] + 1
+
+                        articleLinks.append(entry['link'])
+
+    print articleLinks
+
+    df = pd.DataFrame(record)
+    df['total'] = df.sum(axis=1)
+    # print df.sort(column='total', ascending=False)

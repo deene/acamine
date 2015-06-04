@@ -82,12 +82,6 @@ class AgentNature:
         entry_json_list = json.load(json_file)
         return entry_json_list
 
-    def clean_description(self, desciption_text):
-        """ This method cleans the desciption text, remove all unneccesary symbols, make word lower case """
-        cleaned_text = desciption_text.replace('<p>', '').replace('</p>', '').replace(',','').replace('.','') \
-                        .replace('\'','').replace('(','').replace(')','').replace('-', ' ').lower()
-        return cleaned_text
-        
 ## crawl IEEE Xplore
 #keyword = urllib.quote_plus("graphene")
 #url = "http://ieeexplore.ieee.org/gateway/ipsSearch.jsp?&hc=1&querytext=" + keyword
